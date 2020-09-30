@@ -1,0 +1,28 @@
+User stories
+As the user I want the ability to advance training weeks and days so that I progress to the workout I expect.
+
+As the user I want the ability to see my heart rate at all times so that I can adjust my pace.
+
+As the user I want visual feedback to indicate whether I should jog or walk so that I am accurately reflecting the intent of the workout.
+
+As the user I want haptic feedback to inform me when to switch from jog/walk to walk/jog so that I don’t miss a transition.
+
+As the user I want the ability to see time remaining until the next jog/walk transition so that I can be prepared for a transition.
+
+As the application I want the ability to store the last week/day completed so that I may present the user with the best, next workout.
+
+As the user I want the ability to pause my workout so that I can handle interruptions without interfering with my results.
+
+As a user I want the application to notify me if my speed is to low to meet my distance requirement.  
+
+Requirements
+The application shall store the state of the last completed week/day workout.
+The application shall store all week/day workouts.
+The application shall ask the user if the last workout should be repeated or advanced on startup.
+The application shall track time and distance as to alert the user if they are not running fast enough to meet the distance requirement. 
+
+Pseudo-code
+// Retrieve last week/day workout completed.
+// Ask user if repeat or advanced.
+// …
+// Update last week/day workout complete.
